@@ -4,11 +4,94 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3QvRUNXyhHh4JTme45xy-1" value="需求接入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="100" width="120" height="60" as="geometry" />
+        <mxCell id="3QvRUNXyhHh4JTme45xy-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3QvRUNXyhHh4JTme45xy-4" target="3QvRUNXyhHh4JTme45xy-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3QvRUNXyhHh4JTme45xy-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="3QvRUNXyhHh4JTme45xy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3QvRUNXyhHh4JTme45xy-4" target="3QvRUNXyhHh4JTme45xy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-4" value="第一步：需求介入" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="414" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3QvRUNXyhHh4JTme45xy-5" target="3QvRUNXyhHh4JTme45xy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3QvRUNXyhHh4JTme45xy-5" target="3QvRUNXyhHh4JTme45xy-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-5" value="第二步：开始开发" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="414" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-7" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;1.梳理产品需求&lt;/div&gt;&lt;div&gt;2.后端提供业务逻辑&lt;/div&gt;&lt;div&gt;3.答疑文档、开发文档&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="610" y="25" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-10" value="1.数据接入&lt;div&gt;2.表模型设计&lt;/div&gt;&lt;div&gt;3.指标开发&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="605" y="155" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3QvRUNXyhHh4JTme45xy-13" target="3QvRUNXyhHh4JTme45xy-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-13" value="第三步：测试介入" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="414" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-14" value="根据自己向产品和后端需求的口径与数仓口径对比" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="605" y="285" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-20" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;opacity=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="357" y="25" width="470" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-21" value="痛点1：后端提供逻辑时测试不在且未留存；后端只提供大概口径不详细；&lt;div&gt;痛点2：产品对于开发过程中取什么字段的用语不能清晰是否吻合自己的设计口径&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="410" y="400" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-22" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;opacity=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="20" width="470" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3QvRUNXyhHh4JTme45xy-23" target="3QvRUNXyhHh4JTme45xy-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="683" />
+              <mxPoint x="745" y="683" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3QvRUNXyhHh4JTme45xy-23" target="3QvRUNXyhHh4JTme45xy-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-23" value="针对上面的两个痛点，此处在开发流程中设置了两项重要文档和一项对产品的口径对齐" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="329" y="560" width="290" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-24" value="1.大数据接入口径归档：https://docs.qq.com/sheet/DRURGVnZGU0xJSEx3?tab=rby8uf" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="710" width="365" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3QvRUNXyhHh4JTme45xy-26" target="3QvRUNXyhHh4JTme45xy-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-26" value="1.需产品老师将指标业务口径补充在内，如指标字段、指标描述，此处或许需数据产品老师&lt;div&gt;&lt;br&gt;&lt;div&gt;2.后端老师针对各个指标字段提供对应的业务逻辑&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.数据开发老师根据后端老师提供的逻辑然后整理使用产品老师能理解的话语讲解指标字段，保证每个指标字段都得到正确理解。如应收金额指标字段，向产品老师说时就不需要说从什么表中取什么字段来进行聚合，只需要说应收金额是由应收金额减去减免金额所得，然后其的过滤条件存在哪些，分别与产品提供的限制条件如何对应&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry y="800" width="460" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3QvRUNXyhHh4JTme45xy-27" target="3QvRUNXyhHh4JTme45xy-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-27" value="2.大数据答疑文档：https://docs.qq.com/sheet/DZWtTdElaWGh4aktS?tab=wuybkz" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="710" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3QvRUNXyhHh4JTme45xy-28" target="3QvRUNXyhHh4JTme45xy-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-28" value="之前存在类似的答疑文档，但是未统一整理，甚至有时只是交流形式，未留档，后期查找问题时难以定位之前具体细节口径" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="595" y="820" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3QvRUNXyhHh4JTme45xy-22" target="3QvRUNXyhHh4JTme45xy-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.545;entryY=-0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3QvRUNXyhHh4JTme45xy-22" target="3QvRUNXyhHh4JTme45xy-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.461;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3QvRUNXyhHh4JTme45xy-24" target="3QvRUNXyhHh4JTme45xy-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QvRUNXyhHh4JTme45xy-37" value="经过上面的三重保证，使得指标模糊性降低，得到具体清晰的指标口径，便于测试介入时对指标模糊，不知如何测试或者整理指标口径耗时过长。同时各方口径理解留档，便于后续迭代优化提供完整的前置信息，后续迭代优化时各方都能较为轻松的在原来的架构上设计更具有意义的产品。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="24" y="1060" width="900" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
