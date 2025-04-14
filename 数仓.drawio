@@ -322,7 +322,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zOYH1V0sEY3uDKR9j2VB-48" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;注：5209关联5213、5214、5215、5216时，只会和其中的一张表关联上，目前从数据上看&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="820" width="250" height="80" as="geometry" />
+          <mxGeometry x="275" y="790" width="250" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
