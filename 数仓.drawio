@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="26.2.12" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="dpad合同文本">
     <mxGraphModel dx="1428" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -323,6 +323,82 @@
         </mxCell>
         <mxCell id="zOYH1V0sEY3uDKR9j2VB-48" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;注：5209关联5213、5214、5215、5216时，只会和其中的一张表关联上，目前从数据上看&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="275" y="790" width="250" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HyJe55N2wanVcinTK0Pj" name="管理驾驶舱组织架构">
+    <mxGraphModel dx="1428" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g2ZoCUIrynotED01WkjS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g2ZoCUIrynotED01WkjS-1" target="g2ZoCUIrynotED01WkjS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-9" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;F122关联F1 多对一&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g2ZoCUIrynotED01WkjS-8">
+          <mxGeometry x="0.0133" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-1" value="ods_dp5004&#xa;合同表&#xa;rhdk_sso.t_contract" style="swimlane;startSize=60;" vertex="1" parent="1">
+          <mxGeometry x="90" y="260" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-2" value="id 自增id F1&lt;div&gt;project_manager_id 项目经理id F122&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="g2ZoCUIrynotED01WkjS-1">
+          <mxGeometry x="10" y="80" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-6" value="ods_dp5038&#xa;用户信息表&#xa;sys_manager.user" style="swimlane;startSize=60;" vertex="1" parent="1">
+          <mxGeometry x="490" y="260" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-7" value="id 主键 F1&lt;div&gt;name 用户名 F4&lt;/div&gt;&lt;div&gt;phone_no 手机号 F5&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="g2ZoCUIrynotED01WkjS-6">
+          <mxGeometry x="30" y="70" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-10" value="dpad中的项目经理获取项目经理名称与手机号" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="279" y="480" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="g2ZoCUIrynotED01WkjS-11" target="g2ZoCUIrynotED01WkjS-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-19" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;F1关联F2 一对多&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g2ZoCUIrynotED01WkjS-18">
+          <mxGeometry x="-0.1898" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-11" value="ods_dp5062&#xa;用户账号信息表&#xa;sys_manager.account" style="swimlane;startSize=60;" vertex="1" parent="1">
+          <mxGeometry x="40" y="610" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-12" value="id 主键 F1&lt;div&gt;phone_no 手机号 F3&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="693" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-13" value="ods_dp5081&#xa;公司组织信息表&#xa;sys_manager.organization" style="swimlane;startSize=60;" vertex="1" parent="1">
+          <mxGeometry x="570" y="600" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-17" value="id 主键 F1&lt;div&gt;name 部门名称 F5&lt;br&gt;&lt;div&gt;application_id 应用id F7&amp;nbsp;&lt;/div&gt;&lt;div&gt;path 层级连接关系 F9&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="g2ZoCUIrynotED01WkjS-13">
+          <mxGeometry x="25" y="80" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="g2ZoCUIrynotED01WkjS-15" target="g2ZoCUIrynotED01WkjS-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="830" />
+              <mxPoint x="620" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-21" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;F3关联F1 多对一&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g2ZoCUIrynotED01WkjS-20">
+          <mxGeometry x="-0.0488" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-15" value="ods_dp5063&#xa;组织账号关系表&#xa;sys_manager.org_account" style="swimlane;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="314" y="600" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-16" value="id 主键 id&lt;div&gt;account_id 账号id F2&lt;/div&gt;&lt;div&gt;org_id 组织id F3&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="g2ZoCUIrynotED01WkjS-15">
+          <mxGeometry x="26" y="65" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-22" value="&lt;article data-content=&quot;[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;IwC1-1744792909932&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code&amp;quot;,&amp;quot;data&amp;quot;:{&amp;quot;language&amp;quot;:&amp;quot;sql&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;,&amp;quot;wrap&amp;quot;:false},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;VDiW-1744792910832&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;b7a7-1744792910831&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;SELECT&amp;nbsp;&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]},{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;4B2M-1744792910834&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;Amwo-1744792910833&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;a.id&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]},{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;YcSx-1744792910836&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;ofui-1744792910835&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,o.path&amp;nbsp;&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]},{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;x75V-1744792910838&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;Tf48-1744792910837&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;FROM&amp;nbsp;sys_manager.account&amp;nbsp;a&amp;nbsp;--&amp;nbsp;用户表&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]},{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;1HAn-1744792910840&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;LDSY-1744792910839&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;left&amp;nbsp;join&amp;nbsp;sys_manager.org_account&amp;nbsp;oa&amp;nbsp;--&amp;nbsp;用户与组织架构关联表&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]},{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;YMW9-1744792910842&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;N9Ge-1744792910841&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;on&amp;nbsp;a.id&amp;nbsp;=&amp;nbsp;oa.account_id&amp;nbsp;&amp;nbsp;&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]},{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;XoZM-1744792910844&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;UJnv-1744792910843&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;left&amp;nbsp;join&amp;nbsp;sys_manager.organization&amp;nbsp;o&amp;nbsp;--&amp;nbsp;组织架构表&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]},{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;1Xq7-1744792910846&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;1Lq5-1744792910845&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;on&amp;nbsp;oa.org_id&amp;nbsp;=&amp;nbsp;o.id&amp;nbsp;&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]},{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;xnpC-1744792910848&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;rgpw-1744792910847&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;where&amp;nbsp;a.phone_no&amp;nbsp;=&amp;nbsp;&#39;13783436193&#39;&amp;nbsp;&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]},{&amp;quot;type&amp;quot;:&amp;quot;block&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;8PSb-1744792910851&amp;quot;,&amp;quot;name&amp;quot;:&amp;quot;code-line&amp;quot;,&amp;quot;data&amp;quot;:{},&amp;quot;nodes&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;id&amp;quot;:&amp;quot;Dlql-1744792910850&amp;quot;,&amp;quot;leaves&amp;quot;:[{&amp;quot;text&amp;quot;:&amp;quot;and&amp;nbsp;o.application_id&amp;nbsp;=&amp;nbsp;&#39;1000010&#39;;&amp;nbsp;&amp;nbsp;--&amp;nbsp;查询应用是管理驾驶舱的用户&amp;quot;,&amp;quot;marks&amp;quot;:[]}]}]}],&amp;quot;state&amp;quot;:{}}]&quot;&gt;&lt;div data-language=&quot;sql&quot; style=&quot;white-space-collapse: preserve;&quot; data-theme=&quot;default&quot;&gt;SELECT &lt;br/&gt;     a.id&lt;br/&gt;    ,o.path &lt;br/&gt;FROM sys_manager.account a -- 用户表&lt;br/&gt;left join sys_manager.org_account oa -- 用户与组织架构关联表&lt;br/&gt;on a.id = oa.account_id  &lt;br/&gt;left join sys_manager.organization o -- 组织架构表&lt;br/&gt;on oa.org_id = o.id &lt;br/&gt;where a.phone_no = &#39;13783436193&#39; &lt;br/&gt;and o.application_id = &#39;1000010&#39;;  -- 查询应用是管理驾驶舱的用户&lt;/div&gt;&lt;/article&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="860" width="565" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="g2ZoCUIrynotED01WkjS-24" value="根据手机号查用户的id和path" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="1080" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
