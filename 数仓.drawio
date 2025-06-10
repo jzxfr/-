@@ -408,113 +408,144 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GfDKCZASH2CUhlsDywfO-1" target="nBAoM2dFWGX-NAMIYDIN-2">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GfDKCZASH2CUhlsDywfO-1" target="nBAoM2dFWGX-NAMIYDIN-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-5" value="F1 = F120" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nBAoM2dFWGX-NAMIYDIN-4">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-5" value="F1 = F120" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nBAoM2dFWGX-NAMIYDIN-4" vertex="1" connectable="0">
           <mxGeometry x="-0.0727" y="2" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GfDKCZASH2CUhlsDywfO-1" value="rhdk_sso.t_motion&#xa;议案表&#xa;ods_dp5119" style="swimlane;startSize=50;" vertex="1" parent="1">
+        <mxCell id="GfDKCZASH2CUhlsDywfO-1" value="rhdk_sso.t_motion&#xa;议案表&#xa;ods_dp5119" style="swimlane;startSize=50;" parent="1" vertex="1">
           <mxGeometry x="150" y="150" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-1" value="id 自增id F1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="GfDKCZASH2CUhlsDywfO-1">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-1" value="id 自增id F1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GfDKCZASH2CUhlsDywfO-1" vertex="1">
           <mxGeometry x="40" y="60" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nBAoM2dFWGX-NAMIYDIN-2" target="nBAoM2dFWGX-NAMIYDIN-6">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nBAoM2dFWGX-NAMIYDIN-2" target="nBAoM2dFWGX-NAMIYDIN-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-9" value="F1 = F2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nBAoM2dFWGX-NAMIYDIN-8">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-9" value="F1 = F2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nBAoM2dFWGX-NAMIYDIN-8" vertex="1" connectable="0">
           <mxGeometry x="0.0063" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nBAoM2dFWGX-NAMIYDIN-2" target="nBAoM2dFWGX-NAMIYDIN-20">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nBAoM2dFWGX-NAMIYDIN-2" target="nBAoM2dFWGX-NAMIYDIN-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-23" value="F1 = F2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nBAoM2dFWGX-NAMIYDIN-22">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-23" value="F1 = F2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nBAoM2dFWGX-NAMIYDIN-22" vertex="1" connectable="0">
           <mxGeometry x="-0.0667" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-2" value="rhdk_sso.t_contract&#xa;合同表&#xa;ods_dp5004" style="swimlane;startSize=50;" vertex="1" parent="1">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-2" value="rhdk_sso.t_contract&#xa;合同表&#xa;ods_dp5004" style="swimlane;startSize=50;" parent="1" vertex="1">
           <mxGeometry x="450" y="150" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-3" value="id 自增id F1&lt;div&gt;motion_id 议案id F120&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-3" value="id 自增id F1&lt;div&gt;motion_id 议案id F120&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="470" y="203" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nBAoM2dFWGX-NAMIYDIN-6" target="nBAoM2dFWGX-NAMIYDIN-10">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nBAoM2dFWGX-NAMIYDIN-6" target="nBAoM2dFWGX-NAMIYDIN-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-13" value="F1 = F2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nBAoM2dFWGX-NAMIYDIN-12">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-13" value="F1 = F2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nBAoM2dFWGX-NAMIYDIN-12" vertex="1" connectable="0">
           <mxGeometry x="-0.2" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-6" value="rhdk_sso.t_lease_scheme&#xa;dpap租赁物方案&#xa;ods_dp5003" style="swimlane;startSize=50;" vertex="1" parent="1">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-6" value="rhdk_sso.t_lease_scheme&#xa;dpap租赁物方案&#xa;ods_dp5003" style="swimlane;startSize=50;" parent="1" vertex="1">
           <mxGeometry x="120" y="440" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-7" value="id 自增id F1&lt;div&gt;contract_id 合同id F2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nBAoM2dFWGX-NAMIYDIN-6">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-7" value="id 自增id F1&lt;div&gt;contract_id 合同id F2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="nBAoM2dFWGX-NAMIYDIN-6" vertex="1">
           <mxGeometry x="20" y="60" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nBAoM2dFWGX-NAMIYDIN-10" target="nBAoM2dFWGX-NAMIYDIN-14">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nBAoM2dFWGX-NAMIYDIN-10" target="nBAoM2dFWGX-NAMIYDIN-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-19" value="F1 = F3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nBAoM2dFWGX-NAMIYDIN-18">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-19" value="F1 = F3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nBAoM2dFWGX-NAMIYDIN-18" vertex="1" connectable="0">
           <mxGeometry x="-0.1429" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-10" value="rhdk_sso.t_rent_rule&#xa;租金计算参照方案" style="swimlane;startSize=30;" vertex="1" parent="1">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-10" value="rhdk_sso.t_rent_rule&#xa;租金计算参照方案" style="swimlane;startSize=30;" parent="1" vertex="1">
           <mxGeometry x="120" y="720" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-11" value="id 自增id F1&lt;div&gt;scheme_id 方案id F2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nBAoM2dFWGX-NAMIYDIN-10">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-11" value="id 自增id F1&lt;div&gt;scheme_id 方案id F2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="nBAoM2dFWGX-NAMIYDIN-10" vertex="1">
           <mxGeometry x="20" y="33" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-14" value="rhdk_sso.t_asset_rule_resume&#xa;资产租金计算规则" style="swimlane;startSize=30;" vertex="1" parent="1">
-          <mxGeometry x="117.5" y="969" width="205" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-15" value="id 自增id F1&lt;div&gt;rent_rule_id 租金计算参照方案id F3&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nBAoM2dFWGX-NAMIYDIN-14">
-          <mxGeometry x="-5" y="60" width="210" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nBAoM2dFWGX-NAMIYDIN-20" target="nBAoM2dFWGX-NAMIYDIN-24">
+        <mxCell id="KQ-JC5FJoBYl0ElVTPgT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nBAoM2dFWGX-NAMIYDIN-14" target="KQ-JC5FJoBYl0ElVTPgT-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-27" value="F1 = F2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nBAoM2dFWGX-NAMIYDIN-26">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-14" value="rhdk_sso.t_asset_rule_resume&#xa;资产租金计算规则" style="swimlane;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="117.5" y="1030" width="205" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-15" value="id 自增id F1&lt;div&gt;lease_list_id 租赁物明细id F2&lt;br&gt;&lt;div&gt;rent_rule_id 租金计算参照方案id F3&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="nBAoM2dFWGX-NAMIYDIN-14" vertex="1">
+          <mxGeometry x="-5" y="50" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nBAoM2dFWGX-NAMIYDIN-20" target="nBAoM2dFWGX-NAMIYDIN-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-27" value="F1 = F2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nBAoM2dFWGX-NAMIYDIN-26" vertex="1" connectable="0">
           <mxGeometry x="0.025" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-20" value="rhdk_sso.t_cash_flow&#xa;原始现金流表&#xa;ods_dp5082" style="swimlane;startSize=40;" vertex="1" parent="1">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-20" value="rhdk_sso.t_cash_flow&#xa;原始现金流表&#xa;ods_dp5082" style="swimlane;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="450" y="440" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-21" value="id 自增id F1&lt;div&gt;contract_id 合同id F2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nBAoM2dFWGX-NAMIYDIN-20">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-21" value="id 自增id F1&lt;div&gt;contract_id 合同id F2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="nBAoM2dFWGX-NAMIYDIN-20" vertex="1">
           <mxGeometry x="30" y="43" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-24" value="rhdk_sso.t_carry_over_limit&#xa;结账额度表" style="swimlane;startSize=30;" vertex="1" parent="1">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-24" value="rhdk_sso.t_carry_over_limit&#xa;结账额度表" style="swimlane;startSize=30;" parent="1" vertex="1">
           <mxGeometry x="450" y="720" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-25" value="id 自增id F1&lt;div&gt;cash_flow_id 现金流id F2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-25" value="id 自增id F1&lt;div&gt;cash_flow_id 现金流id F2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="450" y="753" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-28" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后合同表维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-28" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后合同表维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="340" y="260" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-29" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后租赁物方案维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-29" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后租赁物方案维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="260" y="398" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-30" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后现金流表维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-30" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后现金流表维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="570" y="378" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-31" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后租金计算参照方案维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-31" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后租金计算参照方案维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="220" y="680" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-32" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后结账额度维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-32" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后结账额度维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="580" y="668" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nBAoM2dFWGX-NAMIYDIN-33" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后资产租金计算规则维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-33" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后资产租金计算规则维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="240" y="930" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQ-JC5FJoBYl0ElVTPgT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KQ-JC5FJoBYl0ElVTPgT-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KQ-JC5FJoBYl0ElVTPgT-8" value="F29 = F1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KQ-JC5FJoBYl0ElVTPgT-7">
+          <mxGeometry x="-0.0028" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KQ-JC5FJoBYl0ElVTPgT-1" value="rhdk_ss0.t_lease_list&#xa;租赁物明细表&#xa;ods_dp5001" style="swimlane;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="1300" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KQ-JC5FJoBYl0ElVTPgT-2" value="id 自增id F1&lt;div&gt;vehicle_id 车辆id(换电系统随车才有) F29&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KQ-JC5FJoBYl0ElVTPgT-1">
+          <mxGeometry x="-7.5" y="78" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KQ-JC5FJoBYl0ElVTPgT-4" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;F2 = F1 管理后租赁物明细维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1240" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQ-JC5FJoBYl0ElVTPgT-5" value="rhdk_sso.t_vehicle_list&#xa;dpad车辆清单&#xa;ods_dp5011" style="swimlane;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1290" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KQ-JC5FJoBYl0ElVTPgT-6" value="id 自增id F1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515" y="1348" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQ-JC5FJoBYl0ElVTPgT-9" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后车辆清单维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="1410" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
