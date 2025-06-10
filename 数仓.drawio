@@ -413,7 +413,7 @@
         </mxCell>
         <mxCell id="nBAoM2dFWGX-NAMIYDIN-5" value="F1 = F120" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nBAoM2dFWGX-NAMIYDIN-4">
           <mxGeometry x="-0.0727" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GfDKCZASH2CUhlsDywfO-1" value="rhdk_sso.t_motion&#xa;议案表&#xa;ods_dp5119" style="swimlane;startSize=50;" vertex="1" parent="1">
@@ -497,6 +497,24 @@
         </mxCell>
         <mxCell id="nBAoM2dFWGX-NAMIYDIN-25" value="id 自增id F1&lt;div&gt;cash_flow_id 现金流id F2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="450" y="753" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-28" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后合同表维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-29" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后租赁物方案维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="398" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-30" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后现金流表维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="378" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-31" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后租金计算参照方案维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="680" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-32" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后结账额度维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="668" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nBAoM2dFWGX-NAMIYDIN-33" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;关联后资产租金计算规则维度&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="930" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
