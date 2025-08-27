@@ -885,10 +885,10 @@
             <mxPoint x="580" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-16" value="预测最多类数量 / 总数量&amp;nbsp; &amp;lt;&amp;nbsp; (1 - 工单中数量/ 总数量) - 0.095&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-16" value="预测最多类数量 / 总数量&amp;nbsp; &amp;lt;&amp;nbsp; (1 - 工单中数量/ 总数量) - 0.095&amp;nbsp;&lt;div&gt;采用DBSCAN聚类算法&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="420" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-21" value="输出对每条换电行为的判断" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-21" value="输出对每条换电行为的判断及每个聚类器的参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="340" width="635" height="50" as="geometry" />
         </mxCell>
         <mxCell id="28wQ3O1ld2WQIzZ-IMBa-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.633;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.101;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="28wQ3O1ld2WQIzZ-IMBa-5" target="28wQ3O1ld2WQIzZ-IMBa-21">
@@ -914,6 +914,42 @@
             <mxPoint x="690" y="340" as="sourcePoint" />
             <mxPoint x="740" y="290" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-28" value="1.数据清洗" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-29" value="2.特征提取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="28wQ3O1ld2WQIzZ-IMBa-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="640" as="sourcePoint" />
+            <mxPoint x="410" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-31" value="3.训练数据集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="28wQ3O1ld2WQIzZ-IMBa-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="740" as="sourcePoint" />
+            <mxPoint x="410" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="28wQ3O1ld2WQIzZ-IMBa-33" target="28wQ3O1ld2WQIzZ-IMBa-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-33" value="4.验证数据集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="28wQ3O1ld2WQIzZ-IMBa-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="810" as="sourcePoint" />
+            <mxPoint x="470" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-35" value="5.结果保存MySQL" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
