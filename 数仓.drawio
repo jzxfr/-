@@ -886,7 +886,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="28wQ3O1ld2WQIzZ-IMBa-16" value="预测最多类数量 / 总数量&amp;nbsp; &amp;lt;&amp;nbsp; (1 - 工单中数量/ 总数量) - 0.095&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="350" width="390" height="60" as="geometry" />
+          <mxGeometry x="190" y="420" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-21" value="输出对每条换电行为的判断" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="635" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.633;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.101;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="28wQ3O1ld2WQIzZ-IMBa-5" target="28wQ3O1ld2WQIzZ-IMBa-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="340" as="sourcePoint" />
+            <mxPoint x="190" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.346;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="28wQ3O1ld2WQIzZ-IMBa-6" target="28wQ3O1ld2WQIzZ-IMBa-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="340" as="sourcePoint" />
+            <mxPoint x="350" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.696;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="28wQ3O1ld2WQIzZ-IMBa-7" target="28wQ3O1ld2WQIzZ-IMBa-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="340" as="sourcePoint" />
+            <mxPoint x="580" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.937;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="28wQ3O1ld2WQIzZ-IMBa-8" target="28wQ3O1ld2WQIzZ-IMBa-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="340" as="sourcePoint" />
+            <mxPoint x="740" y="290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
