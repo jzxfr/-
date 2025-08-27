@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.1.4" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.0.7" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="dpad合同文本">
     <mxGraphModel dx="1428" dy="1954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -836,6 +836,57 @@
         </mxCell>
         <mxCell id="4y_3-hHTMulYNJDDgYeQ-55" value="输出结果" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="1430" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PwsTSKI2656GW2dZ2LBd" name="第 7 页">
+    <mxGraphModel dx="1426" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-4" value="输入特征【某个站的某个时间范围内换电行为】" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-5" value="通用特征聚类器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-6" value="大车特征聚类器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-7" value="小车特征聚类器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-8" value="起升特征聚类器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-12" value="通用特征" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="28wQ3O1ld2WQIzZ-IMBa-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="350" y="80" as="sourcePoint" />
+            <mxPoint x="230" y="140" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-13" value="大车特征" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="28wQ3O1ld2WQIzZ-IMBa-4" target="28wQ3O1ld2WQIzZ-IMBa-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="310" y="170" as="sourcePoint" />
+            <mxPoint x="390" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-14" value="小车特征" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.625;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="28wQ3O1ld2WQIzZ-IMBa-4" target="28wQ3O1ld2WQIzZ-IMBa-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="410" y="120" as="sourcePoint" />
+            <mxPoint x="490" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-15" value="起升特征" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.833;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.45;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="28wQ3O1ld2WQIzZ-IMBa-4" target="28wQ3O1ld2WQIzZ-IMBa-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="500" y="120" as="sourcePoint" />
+            <mxPoint x="580" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28wQ3O1ld2WQIzZ-IMBa-16" value="预测最多类数量 / 总数量&amp;nbsp; &amp;lt;&amp;nbsp; (1 - 工单中数量/ 总数量) - 0.095&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="350" width="390" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
